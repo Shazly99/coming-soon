@@ -1,0 +1,37 @@
+@import '../style/varibale';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap');
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // background-color: #EDF2F8;
+  background: #E9F5FC !important;
+  font-family:  $fontBase !important;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $mainColor;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba($color: $mainColor, $alpha: 0.8);
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none !important;
+  
+} 

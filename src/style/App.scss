@@ -1,0 +1,234 @@
+@import './varibale';
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap');
+
+.comming_soon {
+    height: 100vh !important;
+
+}
+
+.comming_soon_bg {
+    .comming_soon_title {
+        margin-left: 320px;
+        @media screen and (width < 1020px) {
+            margin: auto;
+        }
+    }
+
+    @media screen and (width < 1429px) {
+        justify-content: end;
+
+        div {
+            padding-right: 50px;
+        }
+    }
+
+    @media screen and (width < 1329px) {
+        div {
+            padding-right: 20px;
+        }
+    }
+
+    @media screen and (width < 1240px) {
+        div {
+            padding-right: 10px;
+        }
+    }
+
+    @media screen and (width < 990px) {
+        justify-content: center;
+
+        div {
+            padding-right: 0px;
+        }
+    }
+
+    h1 {
+        color: #FFF;
+        -webkit-text-stroke-width: 1;
+        -webkit-text-stroke-color: #FFF;
+
+        font-size: 88px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 8.8px;
+        text-align: center;
+        text-transform: uppercase;
+
+        @media screen and (width < 1240px) {
+            font-size: 68px;
+        }
+
+        @media screen and (width < 990px) {
+            font-size: 88px;
+        }
+
+        @media screen and (width < 728px) {
+            font-size: 68px;
+        }
+
+        @media screen and (width < 560px) {
+            font-size: 40px;
+            letter-spacing: 2.8px;
+        }
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+
+        .icons_svg {
+            svg {
+                @media screen and (width < 1400px) {
+                    width: 150px;
+                    height: 150px;
+                }
+
+                @media screen and (width < 1044px) {
+                    width: 130px;
+                    height: 150px;
+                }
+
+                @media screen and (width < 990px) {
+                    width: 145px;
+                    height: 200px;
+                }
+
+                @media screen and (width < 728px) {
+                    width: 130px;
+                    height: 150px;
+                }
+
+                @media screen and (width < 560px) {
+                    width: fit-content;
+                    height: 100px;
+                }
+
+
+                @media screen and (width < 400px) {
+                    width: 60px;
+                    height: auto;
+                }
+            }
+        }
+
+        @media screen and (width < 1270px) {
+            gap: 0px;
+        }
+
+        @media screen and (width < 990px) {
+            gap: 25px;
+        }
+
+        @media screen and (width < 728px) {
+            gap: 0px;
+        }
+
+        @media screen and (width < 560px) {
+            gap: 15px;
+        }
+
+        @media screen and (width < 400px) {
+            gap: 10px;
+        }
+    }
+
+    .contact {
+
+        .phone,
+        .email {
+            a {
+                color: #FFF;
+            }
+        }
+    }
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px #fff solid !important;
+    opacity: 1 !important;
+    margin-top: 50px !important;
+}
+
+.contact_form {
+    position: relative;
+
+    .p-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .p-button-label {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 3px;
+        }
+    }
+
+    .form {
+
+        position: absolute;
+        left: 50%;
+        transform: translate(-10%);
+
+        @media screen and (width < 1214px) {
+            transform: translate(0%);
+            left: 0%;
+        }
+
+        height: fit-content;
+        width: 500px;
+        min-height: 732px;
+        background: #FFF;
+        box-shadow: 1px 1px 44px 0px rgba(0, 0, 0, 0.06);
+        z-index: 999 !important;
+        border-radius: 10px;
+        padding-top: 56px;
+
+        @media screen and (width < 1110px) {
+            width: 450px;
+        }
+
+        @media screen and (width < 993px) {
+            width: 400px;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 211px;
+                height: 86px;
+            }
+        }
+    }
+}
+
+.btn_modal {
+    display: none;
+
+    @media screen and (width<990px) {
+        display: flex;
+    }
+}
+
+.btn_coming_soon {
+
+    .p-button {
+
+        @media screen and (width < 400px) {
+            padding: 5px 10px !important;
+            border-radius: 5px;
+        }
+    }
+}
